@@ -22,7 +22,8 @@
         <label for="menu-toggle" class="hamburger">&#9776;</label>
         <ul class="nav-links">
             <li><a href="./signin.html"> Sign in</a></li>
-            <li id="usernameDisplay"></li>
+            <!--<li><a id="createPostBtn"> Create Post</a></li>
+            <li><a  id="logoutBtn"> Sign Out</a></li>-->
         </ul>
     </nav>
 
@@ -30,7 +31,7 @@
 
 
 
-    <div class="blog-card-horizontal">
+    <div id="mainContent" class="blog-card-horizontal">
         <div class="blog-image-horizontal">
             <img src="https://images.pexels.com/photos/31840057/pexels-photo-31840057/free-photo-of-misty-forest-road-in-ocypel-poland.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="Blog image" />
             <span class="category-tag">Inspiration</span>
@@ -49,7 +50,7 @@
 
             <div class="blog-footer">
                 <div class="blog-actions">
-                    <button class="btn details-btn">Details</button>
+                    <button class="btn details-btn"><a href="./postdetails.html">Details</a></button>
                     <button class="btn comments-btn">💬 12 Comments</button>
                 </div>
             </div>
@@ -97,6 +98,10 @@
             </p>
         </div>
     </footer>
+
+
+    <script src="./main.js"></script>
+    <script src="./login.js"></script>
 </body>
 
 </html>
