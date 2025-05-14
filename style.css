@@ -80,6 +80,7 @@ body {
 		background-color: #e1dcdc;
 		flex-direction: column;
 		display: none;
+		z-index: 1000;
 	}
 
 	#menu-toggle:checked+.hamburger+.nav-links {
